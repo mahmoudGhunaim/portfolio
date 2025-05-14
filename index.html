@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahmoud Ghunaim - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">MG</div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#work">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <main>
+            <section class="hero">
+                <div class="hero-content">
+                    <h1 class="glitch" data-text="Mahmoud Ghunaim">Mahmoud Ghunaim</h1>
+                    <p class="subtitle">Software Developer & Student</p>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn primary-btn">Get In Touch</a>
+                        <a href="#work" class="btn secondary-btn">View Experience</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="/assets/mahmoudKhaled.jpg" alt="Developer">
+                </div>
+            </section>
+
+            <section id="about" class="about">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Mahmoud Ghunaim">
+                    </div>
+                    <div class="about-text">
+                        <p>Hello! I'm <span class="highlight">Mahmoud Ghunaim</span>, a passionate software developer currently working at Softylus Company while pursuing my education at Zarqa University.</p>
+                        <p>I specialize in creating innovative solutions and am dedicated to continuous learning and growth in the field of technology.</p>
+                        <div class="skills">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Astro</span>
+                            <span class="skill-tag">Tailwind</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Typescript</span>
+                         </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="education" class="education">
+                <h2 class="section-title">Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Zarqa University</h3>
+                            <p class="timeline-date">Current</p>
+                            <p>Pursuing a degree in Computer Science with a focus on software development and modern technologies.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="work" class="work">
+                <h2 class="section-title">Work Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Software Developer</h3>
+                            <p class="timeline-date">Softylus Company</p>
+                            <p>Working on developing innovative software solutions and applications. Collaborating with cross-functional teams to deliver high-quality products.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="contact">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>mahmoudghunaim132@gmail.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <p>+962789995755</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Zarqa, Jordan</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com/mahmoudGhunaim" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="https://www.instagram.com/abo5alid.m/" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2023 Mahmoud Ghunaim. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
